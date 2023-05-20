@@ -41,10 +41,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Dodge\DodgePlayer.cs" />
+     <Compile Include="Assets\Scripts\Dodge\DodgeBullet.cs" />
+     <Compile Include="Assets\Scripts\Dodge\DodgeGame.cs" />
+     <Compile Include="Assets\Scripts\Logger.cs" />
      <Compile Include="Assets\Scripts\Test.cs" />
      <Compile Include="Assets\Scripts\TetrisGame.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\Scenes\Dodge" />
+     <Folder Include="Assets\Scripts\Dodge" />
      <Folder Include="Assets\Scenes" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
