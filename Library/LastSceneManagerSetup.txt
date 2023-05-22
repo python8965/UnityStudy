@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Tetris/Tetris.unity
+- path: "Assets/StudyFiles/2\uC8FC\uCC28/Scene.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0
