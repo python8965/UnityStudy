@@ -43,14 +43,17 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Dodge\DodgePlayer.cs" />
      <Compile Include="Assets\Scripts\Dodge\DodgeBullet.cs" />
+     <Compile Include="Assets\StudyFiles\2주차\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\Dodge\DodgeGame.cs" />
      <Compile Include="Assets\Scripts\Logger.cs" />
      <Compile Include="Assets\StudyFiles\1주차\Test.cs" />
      <Compile Include="Assets\Scripts\TetrisGame.cs" />
-     <Compile Include="Assets\StudyFiles\2주차\NewBehaviourScript.cs" />
+     <Compile Include="Assets\StudyFiles\3주차\Study3Player.cs" />
+     <Compile Include="Assets\StudyFiles\3주차\Study3Camera.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Scenes\Tetris" />
+     <Folder Include="Assets\StudyFiles\3주차" />
      <Folder Include="Assets\StudyFiles" />
      <Folder Include="Assets\StudyFiles\2주차" />
      <Folder Include="Assets\StudyFiles\1주차" />
