@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/StudyFiles/3\uC8FC\uCC28/Scene.unity"
+- path: "Assets/StudyFiles/3\uC8FC\uCC28/Study3Scene.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

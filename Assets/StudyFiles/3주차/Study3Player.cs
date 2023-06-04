@@ -14,15 +14,30 @@ public class Study3Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var move = Input.inputString switch
+        var move = new Vector3();
+
+        if (Input.GetKey(KeyCode.W))
         {
-            "w" or "W" => Vector3.forward,
-            "a" or "A" => Vector3.left,
-            "s" or "S" => Vector3.back,
-            "d" or "D" => Vector3.right,
-            _ => Vector3.zero
-        };
-        
-        _rigidbody.AddTorque(move * Time.deltaTime * 60, ForceMode.Impulse);
+            move += Vector3.forward;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            move += Vector3.back;
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            move += Vector3.left;
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            move += Vector3.right;
+        }
+
+        move.Normalize();
+
+        _rigidbody.AddForce(move * Time.deltaTime * 10, ForceMode.Impulse);
     }
 }
