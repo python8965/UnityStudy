@@ -367,6 +367,9 @@
 "Assets/StudyFiles/2주차/NewBehaviourScript.cs"
 "Assets/StudyFiles/3주차/Study3Camera.cs"
 "Assets/StudyFiles/3주차/Study3Player.cs"
+"Assets/StudyFiles/45주차/Study45Camera.cs"
+"Assets/StudyFiles/45주차/Study45Player.cs"
+"Assets/StudyFiles/45주차/Study45Score.cs"
 -langversion:9.0
 
 /deterministic

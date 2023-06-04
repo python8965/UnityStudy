@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.UI;
 using UnityEngine;
 
 public class Study3Player : MonoBehaviour
@@ -40,4 +42,6 @@ public class Study3Player : MonoBehaviour
 
         _rigidbody.AddForce(move * Time.deltaTime * 10, ForceMode.Impulse);
     }
+
+    
 }
